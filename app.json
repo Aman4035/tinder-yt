@@ -3,6 +3,7 @@
     "name": "my-project",
     "slug": "my-project",
     "version": "1.0.0",
+    "scheme": "host.exp.exponent",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -21,10 +22,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "host.exp.exponent"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4ca71408-d003-41f1-bfe4-114847385812"
+      }
+    },
+    "owner": "aman977847"
   }
 }
